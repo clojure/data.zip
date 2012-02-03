@@ -31,7 +31,7 @@
 "))
 
 (deftest test-simple-single-function filter
-  (is (= (xml-> atom1 #((zip/node %) :tag))
+  (is (= (xml-> atom1 #(:tag (zip/node %)))
          '(:feed))))
 
 (deftest test-two-stage-filter
@@ -75,3 +75,18 @@
     (is (= (xml-> atom1 descendants :name "Chouser" ancestors
                   :entry :id text)
            '("1")))))
+
+(defrecord Node [tag attrs content])
+
+(def record
+  (zip/xml-zip
+   (Node. :root {}
+          [(Node. :entry {} [(Node. :id {} ["1"])
+                             (Node. :author {:type "text"} ["John"])])
+           (Node. :entry {} [(Node. :id {} ["2"])
+                             (Node. :author {:type "text"} ["Jane"])])])))
+
+(deftest test-records
+  (is (= (xml-> record :entry :author text)
+         '("John" "Jane"))))
+
