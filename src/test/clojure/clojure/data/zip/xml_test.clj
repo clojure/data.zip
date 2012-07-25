@@ -52,6 +52,12 @@
            '("2"))))
   (testing "with string shortcut"
     (is (= (xml-> atom1 :entry [:author :name "agriffis"] :id text)
+           '("2"))))
+  (testing "with text in"
+    (is (= (xml-> atom1 :entry [:author :name (text-in? #{"agriffis"})] :id text)
+           '("2"))))
+  (testing "with text like"
+    (is (= (xml-> atom1 :entry [:author :name (text-like? #".*iffi.*")] :id text)
            '("2")))))
 
 (deftest test-xml1->
@@ -64,6 +70,10 @@
 
 (deftest test-attribute-filtering
   (is (= (xml-> atom1 :link [(attr= :rel "alternate")] (attr :type))
+         '("text/html")))
+  (is (= (xml-> atom1 :link [(attr-in? :rel #{"alternate"})] (attr :type))
+         '("text/html")))
+  (is (= (xml-> atom1 :link [(attr-like? :rel #"alt.*")] (attr :type))
          '("text/html"))))
 
 ;; This was in the original code under a comment, but is fails
