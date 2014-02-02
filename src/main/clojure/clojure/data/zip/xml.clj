@@ -9,8 +9,7 @@
 
 (ns clojure.data.zip.xml
   (:require [clojure.data.zip :as zf]
-            [clojure.zip :as zip]
-            [clojure.xml :as xml]))
+            [clojure.zip :as zip]))
 
 (declare xml->)
 
