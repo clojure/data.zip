@@ -90,3 +90,11 @@
   (is (= (xml-> record :entry :author text)
          '("John" "Jane"))))
 
+(def atom2 (parse-str "<feed>
+<foo>bar</foo></feed>"))
+
+(deftest dzip-3-first-node
+  (is (not= (xml-> atom2 :feed ) '())))
+
+(deftest dzip-3-second-node
+  (is (= (xml-> atom2 :foo text) '("bar"))))
