@@ -12,7 +12,7 @@
    :wiki-url
    "http://clojure.github.com/data.zip/clojure.data.zip.xml-api.html",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj"}),
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj"}),
  :vars
  ({:raw-source-url
    "https://github.com/clojure/data.zip/raw/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj",
@@ -127,11 +127,11 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip/rightmost?"}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "attr",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L16",
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L16",
    :line 16,
    :var-type "function",
    :arglists ([attrname] [loc attrname]),
@@ -141,11 +141,11 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/attr"}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "attr=",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L21",
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L21",
    :line 21,
    :var-type "function",
    :arglists ([attrname attrval]),
@@ -155,12 +155,12 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/attr="}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "seq-test",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L49",
-   :line 49,
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L48",
+   :line 48,
    :var-type "function",
    :arglists ([preds]),
    :doc
@@ -169,11 +169,11 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/seq-test"}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "tag=",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L26",
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L26",
    :line 26,
    :var-type "function",
    :arglists ([tagname]),
@@ -183,12 +183,12 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/tag="}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "text",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L36",
-   :line 36,
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L35",
+   :line 35,
    :var-type "function",
    :arglists ([loc]),
    :doc
@@ -197,12 +197,12 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/text"}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "text=",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L44",
-   :line 44,
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L43",
+   :line 43,
    :var-type "function",
    :arglists ([s]),
    :doc
@@ -211,12 +211,12 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/text="}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "xml->",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L55",
-   :line 55,
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L54",
+   :line 54,
    :var-type "function",
    :arglists ([loc & preds]),
    :doc
@@ -225,12 +225,12 @@
    :wiki-url
    "http://clojure.github.com/data.zip//clojure.data.zip-api.html#clojure.data.zip.xml/xml->"}
   {:raw-source-url
-   "https://github.com/clojure/data.zip/raw/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj",
+   "https://github.com/clojure/data.zip/raw/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj",
    :name "xml1->",
    :file "src/main/clojure/clojure/data/zip/xml.clj",
    :source-url
-   "https://github.com/clojure/data.zip/blob/cca24641e14a043452bf4619c3c81865d1433fab/src/main/clojure/clojure/data/zip/xml.clj#L78",
-   :line 78,
+   "https://github.com/clojure/data.zip/blob/c5d6ca25c128f9fe937b11505c7c9736cfa2dd9a/src/main/clojure/clojure/data/zip/xml.clj#L77",
+   :line 77,
    :var-type "function",
    :arglists ([loc & preds]),
    :doc
