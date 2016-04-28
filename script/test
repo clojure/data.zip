@@ -1,0 +1,25 @@
+rm -rf resources
+mkdir -p resources
+
+lein cljsbuild once adv
+
+if [ "$V8_HOME" == "" ]; then
+  echo "V8_HOME not set, skipping V8 tests"
+else
+  echo "Testing with V8"
+  ${V8_HOME}/d8 resources/tests.js
+fi
+
+if [ "$SPIDERMONKEY_HOME" == "" ]; then
+  echo "SPIDERMONKEY_HOME not set, skipping SpiderMonkey tests"
+else
+  echo "Testing with SpiderMonkey"
+  ${SPIDERMONKEY_HOME}/js resources/tests.js
+fi
+
+if [ "$JSC_HOME" == "" ]; then
+  echo "JSC_HOME not set, skipping JavaScriptCore tests"
+else
+  echo "Testing with JavaScriptCore"
+  ${JSC_HOME}/jsc resources/tests.js
+fi
