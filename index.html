@@ -79,6 +79,9 @@ namespace.
       
     </div>
   </div><div class="toc-section" style="margin-left: 1em;">
+    <a style="margin-top: 3px;" href="#"></a>
+    
+  </div><div class="toc-section" style="margin-left: 1em;">
     <a style="margin-top: 3px;" href="#clojure.data.zip.xml">clojure.data.zip.xml</a>
     <div class="toc-entry" style="margin-left: 1em;">
       <a href="#clojure.data.zip.xml/attr" class="toc-entry-anchor">attr</a>
@@ -137,6 +140,7 @@ general, and xml trees in particular.</pre>
     <pre id="var-docstr">Returns a lazy sequence of all ancestors of location loc, starting
 with loc and proceeding to loc's parent node and on through to the
 root of the tree.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L62">Source</a>
@@ -149,6 +153,7 @@ root of the tree.</pre>
 </pre>
     <pre id="var-docstr">Returns a lazy sequence of all immediate children of location loc,
 left-to-right.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L42">Source</a>
@@ -161,6 +166,7 @@ left-to-right.</pre>
 </pre>
     <pre id="var-docstr">Returns a lazy sequence of all immediate children of location loc,
 left-to-right, marked so that a following tag= predicate will auto-descend.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L49">Source</a>
@@ -173,6 +179,7 @@ left-to-right, marked so that a following tag= predicate will auto-descend.</pre
 </pre>
     <pre id="var-docstr">Returns a lazy sequence of all descendants of location loc, in
 depth-first order, left-to-right, starting with loc.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L57">Source</a>
@@ -184,6 +191,7 @@ depth-first order, left-to-right, starting with loc.</pre>
     <pre id="var-usage">Usage: (left-locs loc)
 </pre>
     <pre id="var-docstr">Returns a lazy sequence of locations to the left of loc, starting with loc.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L30">Source</a>
@@ -195,6 +203,7 @@ depth-first order, left-to-right, starting with loc.</pre>
     <pre id="var-usage">Usage: (leftmost? loc)
 </pre>
     <pre id="var-docstr">Returns true if there are no more nodes to the left of location loc.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L34">Source</a>
@@ -206,6 +215,7 @@ depth-first order, left-to-right, starting with loc.</pre>
     <pre id="var-usage">Usage: (right-locs loc)
 </pre>
     <pre id="var-docstr">Returns a lazy sequence of locations to the right of loc, starting with loc.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L26">Source</a>
@@ -217,11 +227,13 @@ depth-first order, left-to-right, starting with loc.</pre>
     <pre id="var-usage">Usage: (rightmost? loc)
 </pre>
     <pre id="var-docstr">Returns true if there are no more nodes to the right of location loc.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/ca5a2efcc1c865baa25f904d7d9f027809b8f738/src/main/clojure/clojure/data/zip.clj#L38">Source</a>
   </div>
 </div>
+
 <br />
 <h2 id="clojure.data.zip.xml">clojure.data.zip.xml</h2>
 <pre id="namespace-docstr"></pre>
@@ -242,6 +254,7 @@ depth-first order, left-to-right, starting with loc.</pre>
        (attr loc attrname)
 </pre>
     <pre id="var-docstr">Returns the xml attribute named attrname, of the xml node at location loc.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L17">Source</a>
@@ -254,6 +267,7 @@ depth-first order, left-to-right, starting with loc.</pre>
 </pre>
     <pre id="var-docstr">Returns a query predicate that matches a node when it has an
 attribute named attrname whose value is attrval.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L22">Source</a>
@@ -266,6 +280,7 @@ attribute named attrname whose value is attrval.</pre>
 </pre>
     <pre id="var-docstr">Returns a query predicate that matches a node when its xml content
 matches the query expresions given.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L49">Source</a>
@@ -278,6 +293,7 @@ matches the query expresions given.</pre>
 </pre>
     <pre id="var-docstr">Returns a query predicate that matches a node when its is a tag
 named tagname.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L27">Source</a>
@@ -290,6 +306,7 @@ named tagname.</pre>
 </pre>
     <pre id="var-docstr">Returns the textual contents of the given location, similar to
 xpaths's value-of</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L36">Source</a>
@@ -302,6 +319,7 @@ xpaths's value-of</pre>
 </pre>
     <pre id="var-docstr">Returns a query predicate that matches a node when its textual
 content equals s.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L44">Source</a>
@@ -328,6 +346,7 @@ strings to text=, and vectors to sub-queries that return true if
 they match.
 
 See the footer of zip-query.clj for examples.</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L55">Source</a>
@@ -340,6 +359,7 @@ See the footer of zip-query.clj for examples.</pre>
 </pre>
     <pre id="var-docstr">Returns the first item from loc based on the query predicates
 given.  See xml-&gt;</pre>
+    <pre id="var-specs"></pre>
     
     
     <a id="var-source" href="https://github.com/clojure/data.zip/blob/a9e60c9b72757dc3ac734bc1ab0aa283ced017e2/src/main/clojure/clojure/data/zip/xml.clj#L78">Source</a>
