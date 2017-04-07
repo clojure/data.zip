@@ -68,7 +68,7 @@
   strings to text=, and vectors to sub-queries that return true if
   they match.
 
-  See the footer of zip-query.clj for examples."
+  See xml_test.clj for examples."
   [loc & preds]
   (zf/mapcat-chain loc preds
                    #(cond (keyword? %) (tag= %)
