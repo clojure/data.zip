@@ -29,9 +29,9 @@
   named tagname."
   [tagname]
   (fn [loc]
-    (or (= tagname (:tag (zip/node loc)))
-        (filter #(and (zip/branch? %) (= tagname (:tag (zip/node %))))
-                 (zf/children-auto loc)))))
+    (or (seq (filter #(and (zip/branch? %) (= tagname (:tag (zip/node %))))
+                     (zf/children-auto loc)))
+        (= tagname (:tag (zip/node loc))))))
 
 (defn text
   "Returns the textual contents of the given location, similar to

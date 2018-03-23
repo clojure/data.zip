@@ -98,3 +98,12 @@
 
 (deftest dzip-3-second-node
   (is (= (xml-> atom2 :foo text) '("bar"))))
+
+(def atom3 (parse-str "<root><foo><bar>outer</bar>
+<foo><bar>inner</bar></foo></foo></root>"))
+
+(deftest dzip-6-outer-bar
+  (is (= (xml-> atom3 :root :foo :bar text) '("outer"))))
+
+(deftest dzip-6-inner-bar
+  (is (= (xml-> atom3 :root :foo :foo :bar text) '("inner"))))
