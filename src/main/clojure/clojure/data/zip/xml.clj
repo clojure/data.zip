@@ -38,7 +38,7 @@
   xpaths's value-of"
   [loc]
   (string/replace (apply str (xml-> loc zf/descendants zip/node string?))
-                  (re-pattern (str "[\\s" (char 160) "]+"))
+                  (re-pattern (str "[\\s\u00A0]+"))
                   " "))
 
 (defn text=
@@ -48,6 +48,7 @@
 
 (defn seq-test
   "Returns a query predicate that matches a node when its xml content
+
   matches the query expresions given."
   ^{:private true}
   [preds] (fn [loc] (and (seq (apply xml-> loc preds)) (list loc))))
