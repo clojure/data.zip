@@ -49,7 +49,6 @@
 (defn children-auto
   "Returns a lazy sequence of all immediate children of location loc,
   left-to-right, marked so that a following tag= predicate will auto-descend."
-  ^{:private true}
   [loc]
   (when (zip/branch? loc)
     (map #(auto true %) (right-locs (zip/down loc)))))
@@ -68,7 +67,6 @@
 (defn- fixup-apply
   "Calls (pred loc), and then converts the result to the 'appropriate'
   sequence."
-  ^{:private true}
   [pred loc]
   (let [rtn (pred loc)]
     (cond (and (map? (meta rtn)) (:zip-filter/is-node? (meta rtn))) (list rtn)
@@ -79,7 +77,6 @@
           :else                       (list rtn))))
 
 (defn mapcat-chain
-  ^{:private true}
   [loc preds mkpred]
   (reduce (fn [prevseq expr]
             (mapcat #(fixup-apply (or (mkpred expr) expr) %) prevseq))
