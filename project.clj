@@ -1,4 +1,4 @@
-(defproject org.clojure/data.zip "0.1.2-SNAPSHOT"
+(defproject org.clojure/data.zip "1.1.0-SNAPSHOT"
   :description "System for filtering trees, and XML trees in particular"
   :parent [org.clojure/pom.contrib "0.1.2"]
 
