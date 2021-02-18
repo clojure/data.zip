@@ -13,7 +13,6 @@ This project follows the version scheme MAJOR.MINOR.PATCH where each component p
 Latest stable release: 1.0.0
 
 * [All Released Versions](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.clojure%22%20AND%20a%3A%22data.zip%22)
-
 * [Development Snapshot Versions](https://oss.sonatype.org/index.html#nexus-search;gav~org.clojure~data.zip~~~)
 
 deps.edn dependency information:
@@ -43,23 +42,20 @@ Developer Information
 ========================================
 
 * [GitHub project](https://github.com/clojure/data.zip)
-
-* [Bug Tracker](https://dev.clojure.org/jira/browse/DZIP)
-
+* [Bug Tracker](https://clojure.atlassian.net/browse/DZIP)
 * [Continuous Integration](https://build.clojure.org/job/data.zip/)
-
 * [Compatibility Test Matrix](https://build.clojure.org/job/data.zip-test-matrix/)
 
 Change Log
 ====================
 
 * Release 1.0.0 on 2020-02-18
-  * [DZIP-9](https://dev.clojure.org/jira/browse/DZIP-9) - Fix invalid and inappropriate private metadata
+  * [DZIP-9](https://clojure.atlassian.net/browse/DZIP-9) - Fix invalid and inappropriate private metadata
 * Release 0.1.3 on 2019-03-07
-  * [DZIP-8](https://dev.clojure.org/jira/browse/DZIP-8) - Use unicode char for non-breaking space in regex pattern
+  * [DZIP-8](https://clojure.atlassian.net/browse/DZIP-8) - Use unicode char for non-breaking space in regex pattern
 * Release 0.1.2 on 2016-04-28
-  * [DZIP-3](https://dev.clojure.org/jira/browse/DZIP-3) - Not returning expected result for tag= 
-  * [DZIP-5](https://dev.clojure.org/jira/browse/DZIP-5) - Add ClojureScript support
+  * [DZIP-3](https://clojure.atlassian.net/browse/DZIP-3) - Not returning expected result for tag= 
+  * [DZIP-5](https://clojure.atlassian.net/browse/DZIP-5) - Add ClojureScript support
 * Release 0.1.1 on 2012-03-30
 * Release 0.1.0 on 2011-08-24
 
