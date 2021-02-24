@@ -36,7 +36,7 @@ org.clojure/data.zip {:mvn/version "1.0.0"}
 Example Usage
 ========================================
 
-For more detail see the [generated documentation on github](https://clojure.github.com/data.zip/).
+For more detail see the [generated documentation on github](https://clojure.github.io/data.zip/).
 
 Developer Information
 ========================================
