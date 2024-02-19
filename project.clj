@@ -1,11 +1,11 @@
 (defproject org.clojure/data.zip "1.1.0-SNAPSHOT"
   :description "System for filtering trees, and XML trees in particular"
-  :parent [org.clojure/pom.contrib "0.1.2"]
+  :parent [org.clojure/pom.contrib "1.2.0"]
 
   :source-paths ["src/main/clojure" "src/main/clojurescript"]
   :test-paths ["src/test/clojure" "src/test/clojurescript"]
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "0.0-3211"]]
 
   :plugins [[lein-cljsbuild "1.0.6"]]
