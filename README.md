@@ -10,26 +10,26 @@ Releases and Dependency Information
 
 This project follows the version scheme MAJOR.MINOR.PATCH where each component provides some relative indication of the size of the change, but does not follow semantic versioning. In general, all changes endeavor to be non-breaking (by moving to new names rather than by breaking existing names).
 
-Latest stable release: 1.0.0
+Latest stable release: 1.1.0
 
 * [All Released Versions](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.clojure%22%20AND%20a%3A%22data.zip%22)
 * [Development Snapshot Versions](https://oss.sonatype.org/index.html#nexus-search;gav~org.clojure~data.zip~~~)
 
 deps.edn dependency information:
 ```clojure
-org.clojure/data.zip {:mvn/version "1.0.0"}
+org.clojure/data.zip {:mvn/version "1.1.0"}
 ```
 
 [Leiningen](https://github.com/technomancy/leiningen) dependency information:
 ```clojure
-[org.clojure/data.zip "1.0.0"]
+[org.clojure/data.zip "1.1.0"]
 ```
 [Maven](https://maven.apache.org/) dependency information:
 ```xml
 <dependency>
   <groupId>org.clojure</groupId>
   <artifactId>data.zip</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
 </dependency>
 ```
 
@@ -48,6 +48,8 @@ Developer Information
 Change Log
 ====================
 
+* Release 1.1.0 on 2024-02-19
+  * Update parent pom
 * Release 1.0.0 on 2020-02-18
   * [DZIP-9](https://clojure.atlassian.net/browse/DZIP-9) - Fix invalid and inappropriate private metadata
 * Release 0.1.3 on 2019-03-07
@@ -61,7 +63,7 @@ Change Log
 Copyright and License
 ========================================
 
-Copyright (c) Aaron Bedra and Rich Hickey, 2011-2023. All rights reserved.  The use and
+Copyright (c) Aaron Bedra and Rich Hickey. All rights reserved.  The use and
 distribution terms for this software are covered by the Eclipse Public
 License 1.0 (https://opensource.org/license/epl-1-0/) which can
 be found in the file epl-v10.html at the root of this distribution.
