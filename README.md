@@ -10,26 +10,26 @@ Releases and Dependency Information
 
 This project follows the version scheme MAJOR.MINOR.PATCH where each component provides some relative indication of the size of the change, but does not follow semantic versioning. In general, all changes endeavor to be non-breaking (by moving to new names rather than by breaking existing names).
 
-Latest stable release: 1.1.0
+Latest stable release: 1.1.1
 
 * [All Released Versions](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.clojure%22%20AND%20a%3A%22data.zip%22)
 * [Development Snapshot Versions](https://oss.sonatype.org/index.html#nexus-search;gav~org.clojure~data.zip~~~)
 
 deps.edn dependency information:
 ```clojure
-org.clojure/data.zip {:mvn/version "1.1.0"}
+org.clojure/data.zip {:mvn/version "1.1.1"}
 ```
 
 [Leiningen](https://github.com/technomancy/leiningen) dependency information:
 ```clojure
-[org.clojure/data.zip "1.1.0"]
+[org.clojure/data.zip "1.1.1"]
 ```
 [Maven](https://maven.apache.org/) dependency information:
 ```xml
 <dependency>
   <groupId>org.clojure</groupId>
   <artifactId>data.zip</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
 </dependency>
 ```
 
@@ -48,6 +48,8 @@ Developer Information
 Change Log
 ====================
 
+* Release 1.1.1 on 2025-12-30
+  * Update parent pom
 * Release 1.1.0 on 2024-02-19
   * Update parent pom
 * Release 1.0.0 on 2020-02-18
